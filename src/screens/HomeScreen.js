@@ -1,8 +1,17 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, View, Button } from "react-native";
+import { TouchableOpacity } from "react-native-gesture-handler";
 
-const HomeScreen = () => {
-  return <Text style={styles.text}>HomeScreen</Text>;
+const HomeScreen = ({navigation}) => {
+  return (
+    <View>
+      <Text style={styles.text}>HomeScreen</Text>
+      <Button 
+        onPress={() => navigation.navigate("ColorCounter")}
+        title="Go to Color Counter"
+      />
+    </View>
+  )
 };
 
 const styles = StyleSheet.create({
