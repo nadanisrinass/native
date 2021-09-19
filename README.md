@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://reactnative.dev/">
-    React Native
+  <a href="#">
+    React Native 
   </a>
 </h1>
 
@@ -17,10 +17,20 @@
 
 ## Contents
 - [How To Run Repository](#-Running)
+- [About](#-About)
 
 ## 📖 Running
 
 How to Run Repository
+
+Install Repository
+`npm i`
+
+Start Repository
+`npm start`
+
+## 👾 About 
+just for fun
 
 
 
